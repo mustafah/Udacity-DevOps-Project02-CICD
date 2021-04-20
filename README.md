@@ -128,4 +128,4 @@ You can also click on the build stage or deploy app to get detailed status.
 
 
 ## Video demo
-Watch it here [https://www.youtube.com/watch?v=M25F0UeuvUw](https://www.youtube.com/watch?v=M25F0UeuvUw)
+Watch it here [https://www.youtube.com/watch?v=fB-sMGyY2Kk](https://www.youtube.com/watch?v=fB-sMGyY2Kk)
