@@ -13,7 +13,9 @@ This was done by using CI/CD (Continuous Integration and Continuous Delivery), w
 * **Azure Pipelines** Continuous Delivery to Azure Web App Service.  
 
 Start with this code provided by Udacity for this project: [Azure-Cloud-DevOps-Starter-Code](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code)  
- 
+
+## Architectural Diagram
+![Project Architecture](screenshots/ci_cd_architecture.png)
 
 ## How To ?
 
@@ -46,6 +48,11 @@ git clone <paste_repository_link>.git
 ![RepoClone](screenshots/git-clone.png)  
 
 
+##### Validate
+![MakeAll](screenshots/make-all.png)  
+
+
+
 ##### 4. GitHub Actions 
 
 * Click on "Actions", under GitHub repository name.
@@ -53,6 +60,10 @@ git clone <paste_repository_link>.git
 ![Github Action](screenshots/create-github-action.png)
 * Replace the file contents with the contents of the .github/workflows/python-app.yml file
 * Click "Start commit"
+
+When the action is triggered, you should expect the following:
+![](screenshots/github-actions.png)
+
 ##### 5. Azure AppService
 Create the App Service and initially deply the app in the Azure Cloud Shell. 
 This step can be done in the portal. 
@@ -115,6 +126,11 @@ You can also click on the build stage or deploy app to get detailed status.
  This is useful for debugging.  
 ![Passing Azure pipelines testing](screenshots/azure-deployment-review.png)
 
+## Enhancements
+
+1. Creating a Kubernetes version of this project. As it is an ideal platform for running CI/CD platforms, as it has plenty of features that make it easy to do so.
+
+2. Create another version of the project where you replace the Azure Pipelines Continuous Delivery step with Github Actions. Which considered a more affordable option and more community support.
 
 ## Project Documentation
 **Project Board**    
