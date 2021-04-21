@@ -1,5 +1,5 @@
 
-[![Build Status](https://dev.azure.com/bmustafah/flask-ml-app/_apis/build/status/mustafah.UdacityP2-CICD?branchName=main)](https://dev.azure.com/bmustafah/flask-ml-app/_build/latest?definitionId=1&branchName=main)
+[![Python application](https://github.com/mustafah/Udacity-DevOps-Project02-CICD/actions/workflows/main.yml/badge.svg)](https://github.com/mustafah/Udacity-DevOps-Project02-CICD/actions/workflows/main.yml)
 
 # Udacity - DevOps - Project 2 - Building a CI/CD Pipeline
 
