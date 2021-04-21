@@ -112,6 +112,11 @@ Make a connection between Azure pipelines and GitHub.
 * Select your web app name in the dropdown box, click "Validate and Configure"
 * Click "Save and run"
  
+##### Load Test
+1. Install locust   
+2. Run `locust -f locust.py`  
+3. Browse localhost:8089    
+![Load test using Locust](screenshots/locust.png)
 
 ![Pipeline](screenshots/azure-created-pipeline.png)
 
